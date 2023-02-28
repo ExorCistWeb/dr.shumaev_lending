@@ -341,3 +341,50 @@ h4 {
     padding: 22px;
     margin-right: 40px;
 }
+
+
+/* ПОКАЗАНИЯ */
+
+.readings {
+    background: #F5F8FB;
+    padding: 60px 0 70px;
+}
+
+.readings_title {
+    max-width: 360px;
+    margin-right: 60px;
+    text-align: start;
+}
+
+.readings_title h2 {
+    margin-bottom: 20px;
+    text-align: start;
+    font-size: 30px;
+}
+
+.readings_container {
+    display: flex;
+    align-items: center;
+}
+
+.readings_content {
+    display: flex;
+}
+
+.readings_box {
+    width: 200px;
+    text-align: center;
+}
+
+.readings_box:nth-child(2) {
+    margin: 0 40px;
+}
+
+.readings_img {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(97, 106, 136, 0.12);
+    border-radius: 100px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
