@@ -388,3 +388,112 @@ h4 {
     display: inline-block;
     margin-bottom: 20px;
 }
+
+
+/* Эстетичные виниры */
+
+.aesthetic_veneers {
+    padding: 70px 0;
+}
+
+
+/* Почему нужно... */
+
+.why {
+    padding: 70px 100px;
+    background: #F5F8FB;
+}
+
+.why_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 75px;
+}
+
+.why_box {
+    width: 100%;
+    max-width: 560px;
+    height: 270px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 30px;
+}
+
+.why_box h4 {
+    max-width: 300px;
+    font-size: 18px;
+    color: #171717;
+    margin-bottom: 25px;
+    text-transform: none;
+    line-height: 140%;
+}
+
+.why_box:nth-child(1) p {
+    max-width: 280px;
+}
+
+.why_box:nth-child(1) {
+    margin-right: 20px;
+    background-image: url(../img/why_1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.why_box:nth-child(2) {
+    background-image: url(../img/why_2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.why_box:nth-child(2) p {
+    max-width: 240px;
+}
+
+.point_cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.point_cont:nth-child(2) {
+    margin-top: 70px;
+}
+
+.point_cont .point {
+    display: flex;
+    align-items: center;
+    width: 383px;
+}
+
+.point_cont .point:nth-child(2) {
+    width: 338px;
+}
+
+.point_cont .point:nth-child(5) {
+    width: 338px;
+}
+
+.point_cont .point .point_num {
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #F1F1F1;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #2F80ED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.point_cont .point h4 {
+    color: #000;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 18px;
+}
