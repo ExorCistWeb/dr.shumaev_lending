@@ -650,3 +650,139 @@ h4 {
     font-size: 32px;
     line-height: 150%;
 }
+
+
+/* Налоговой высчет */
+
+.calculate_content {
+    padding: 80px 0 0;
+}
+
+.calculate {
+    min-height: 340px;
+    background: #F2F6F8;
+    border-radius: 20px;
+    background-image: url(../img/calculate.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    padding: 60px;
+    text-align: start;
+}
+
+.calculate h2 {
+    text-align: start;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+}
+
+.calculate_p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    /* identical to box height, or 129% */
+    /* text_black */
+    color: #171717;
+    margin: 8px 0 30px;
+}
+
+.calculate_p .bold {
+    font-weight: 600;
+}
+
+.form_container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+input {
+    padding: 16.5px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.form_container input:nth-child(1) {
+    width: 100%;
+    max-width: 332px;
+}
+
+.form_container input:nth-child(2) {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 10px;
+}
+
+.form_container select {
+    width: 100%;
+    max-width: 250px;
+    color: rgba(0, 0, 0, 1);
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    outline: none;
+    padding: 16.5px 20px;
+    font: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin-right: 10px;
+}
+
+.form_container select:not([multiple]) {
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+    background-size: 10px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Cpath d='M70.3 13.8L40 66.3 9.7 13.8z' fill='%23000'%3E%3C/path%3E%3C/svg%3E");
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.form_container button {
+    border-radius: 4px;
+    padding: 16px 24px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    white-space: nowrap;
+    text-transform: none;
+}
+
+.politic_p,
+.politic_p a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: rgba(23, 23, 23, 0.6);
+    margin-top: 20px;
+}
+
+.politic_p a {
+    text-decoration: underline;
+}

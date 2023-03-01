@@ -282,6 +282,32 @@
             </div>
         </div>
     </section>
+    <section>
+        <div class="container calculate_content">
+            <div class="calculate">
+                <h2 class="blue">Сделаем налоговый вычет</h2>
+                <p class="calculate_p"><span class="bold">Вернем 13%</span> от стоимости лечения</p>
+
+
+                <form class="form_container" action="send.php" method="post" id="form">
+                    <input type="text" name="name" placeholder="ФИО налогоплательщика" required>
+                    <input type="text" name="phone" placeholder="Номер телефона" id="phone" required>
+                    <select name="type" id="type">
+                        <option value="">Тип справки</option>
+                        <option value="tax">Вычет через налоговую</option>
+                        <option value="employer">Вычет через работодателя</option>
+                    </select>
+                    <button type="submit">Отправить заявку</button>
+                </form>
+                <p class="politic_p">Нажимая на кнопку вы соглашаетесь с <a href="">политикой конфиденциальности</a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
