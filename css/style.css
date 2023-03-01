@@ -99,6 +99,13 @@ h4 {
     line-height: 150%;
 }
 
+h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #26252D;
+}
+
 .orange_span {
     color: #E65538;
 }
@@ -570,4 +577,76 @@ h4 {
     z-index: 99;
     bottom: 0;
     right: -16px;
+}
+
+
+/* Бузупречные улыбки */
+
+.should_be {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+
+/* Стоймость услуг */
+
+.service_cost {
+    background: linear-gradient(0deg, #F5F8FB, #F5F8FB), #FFFFFF;
+    padding: 53px 0 92px;
+}
+
+.service_cost_flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.service_cost_card {
+    padding: 40px 75px 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(97, 106, 136, 0.12);
+    border-radius: 20px;
+    max-width: 560px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    min-height: 970px;
+}
+
+.service_cost_card h3 {
+    font-size: 24px;
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+
+.service_cost_card p {
+    font-size: 15px;
+    line-height: 155%;
+    margin-bottom: 30px;
+}
+
+.service_cost_card h5 {
+    margin-bottom: 8px;
+}
+
+.service_cost_card_bottom h2:nth-child(1) {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-decoration-line: line-through;
+    color: #888888;
+}
+
+.service_cost_card_bottom .green {
+    margin: 10px 0 30px;
+    letter-spacing: 0.05em;
+    font-size: 32px;
+    line-height: 150%;
 }
