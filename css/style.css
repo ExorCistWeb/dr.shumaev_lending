@@ -403,6 +403,22 @@ h4 {
     padding: 70px 0;
 }
 
+.aesthetic_box {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(97, 106, 136, 0.12);
+    border-radius: 20px;
+    text-align: end;
+    padding: 20px 30px;
+}
+
+.aesthetic_box::before {
+    content: ' ';
+    display: block;
+    width: 44px;
+    height: 44px;
+    background: ;
+}
+
 
 /* Почему нужно... */
 
