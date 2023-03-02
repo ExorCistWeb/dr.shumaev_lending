@@ -590,6 +590,79 @@ h4 {
     padding: 70px 0;
 }
 
+.patients-slider {
+    overflow-x: hidden;
+    padding-bottom: 32px;
+}
+
+.patients-slider .swiper-slide {
+    transition: 0.5s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.patients-slider img {
+    width: 460px;
+    height: 460px;
+    border-radius: 25px;
+}
+
+.patients .swiper-slide-duplicate-prev,
+.patients .swiper-slide-duplicate-next,
+.patients .swiper-slider {
+    opacity: 0.25;
+}
+
+.patients .swiper-button-next:after,
+.patients .swiper-rtl .swiper-button-prev:after,
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    content: "" !important;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    right: 410px;
+    left: auto;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    left: 410px;
+}
+
+.patients .swiper-button-next,
+.patients .swiper-rtl .swiper-button-prev {
+    right: 47px !important;
+}
+
+.patients .swiper-button-prev,
+.patients .swiper-rtl .swiper-button-next {
+    left: 47px !important;
+}
+
+.patients-button-prev img,
+.patients-button-next img {
+    width: 62px;
+    height: 58px;
+    border-radius: 0;
+}
+
+.should_be_slider {
+    width: 100%;
+    margin: 52px 0;
+}
+
+.should_be_slider .swiper-slide-next,
+.should_be_slider .swiper-slide-prev {
+    opacity: .3;
+}
+
+.should_be_slider .swiper-pagination {
+    bottom: 0;
+}
+
 
 /* Стоймость услуг */
 
@@ -697,7 +770,7 @@ h4 {
     flex-wrap: nowrap;
 }
 
-input {
+.form_container input {
     padding: 16.5px 20px;
     font-weight: 500;
     font-size: 14px;
@@ -711,7 +784,7 @@ input {
     outline: none;
 }
 
-input::placeholder {
+.form_container input::placeholder {
     color: rgba(0, 0, 0, 0.4);
 }
 
@@ -770,6 +843,7 @@ select::-ms-expand {
     line-height: 17px;
     font-weight: 400;
     white-space: nowrap;
+    border: none;
     text-transform: none;
 }
 
@@ -785,4 +859,507 @@ select::-ms-expand {
 
 .politic_p a {
     text-decoration: underline;
+}
+
+
+/* Отзывы */
+
+.reviews {
+    padding: 70px 0 70px;
+}
+
+.reviews_title {
+    padding: 0 70px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reviews_title .reviews_title_left h2 {
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.reviews_title .reviews_title_left p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #171717;
+    display: flex;
+    align-items: center;
+}
+
+.reviews_title .reviews_title_left p img {
+    margin-left: 16px;
+}
+
+.reviews_title_left {
+    padding-bottom: 24px;
+    margin-bottom: 20px;
+}
+
+.reviews .swiper-slide {
+    transition: 0.5s all;
+}
+
+.reviews .swiper-wrapper {
+    box-sizing: border-box;
+    margin-left: 17.5%;
+}
+
+.reviews .swiper-slide {
+    opacity: 0.5;
+}
+
+.reviews .swiper-slide-active {
+    opacity: 1;
+}
+
+.reviews h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rate {
+    background: #FFFFFE;
+    font-size: 16px;
+    line-height: 21px;
+    filter: drop-shadow(0px 1.15911px 6.42145px rgba(22, 21, 21, 0.09));
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.rate.swiper-slide {
+    height: 100%;
+    max-height: 330px;
+    min-height: 330px;
+    max-width: 656px;
+}
+
+.rate__header {
+    display: flex;
+}
+
+.rate__header h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #383838;
+    text-transform: none;
+    margin-bottom: 14px;
+}
+
+.rate__header p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.rate__header-row span {
+    color: #ffcd0d;
+}
+
+.rate__header-column:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rate__body {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #383838;
+}
+
+.reviews .swiper-slide-duplicate-prev,
+.reviews .swiper-slide-duplicate-next,
+.reviews .swiper-slider {
+    opacity: 0.25;
+}
+
+.reviews .swiper-button-next:after,
+.reviews .swiper-rtl .swiper-button-prev:after,
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    content: "" !important;
+}
+
+.reviews .swiper-button-next,
+.reviews .swiper-rtl .swiper-button-prev {
+    right: 20px !important;
+}
+
+.reviews .swiper-button-prev,
+.reviews .swiper-rtl .swiper-button-next {
+    left: 20px !important;
+}
+
+.patients-button-prev img,
+.patients-button-next img {
+    width: 62px;
+    height: 58px;
+    border-radius: 0;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    content: "" !important;
+}
+
+
+/* ПРОДОКТОРОВ */
+
+.prodoctorov {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 17px 0 76px;
+}
+
+
+/* Видео отзывы */
+
+.video_reviews {
+    background: #F5F8FB;
+    padding: 60px 0 100px;
+    text-align: center;
+}
+
+.video_reviews p {
+    margin: 10px 0 7px;
+}
+
+.video_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.video_flex iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+}
+
+
+/* Часто задаваемые вопросы */
+
+.questions {
+    padding: 70px 0 0;
+}
+
+.questions p {
+    text-align: center;
+    margin: 10px 0 40px;
+}
+
+.questions .quest_btn {
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 200%;
+    /* identical to box height, or 26px */
+    letter-spacing: 0.05em;
+}
+
+.questions_content {
+    padding: 60px 0 12px;
+    background-image: url(../img/quest.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 429px 431px;
+}
+
+.accordion_box {
+    width: 100%;
+    max-width: 660px;
+    border-top: 1px solid #EEEEEE;
+}
+
+.accordion {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    background: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 135% */
+    display: flex;
+    align-items: center;
+    /* text_black */
+    color: #171717;
+    text-transform: none;
+    border-radius: unset;
+    padding: 12px 0
+}
+
+
+/* .accordion:hover {
+    background-color: #f1efef;
+} */
+
+.panel {
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.panel p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.active img {
+    transition: 0.4s;
+    transform: rotate(180deg);
+}
+
+.active:active img {
+    transition: 0.4s;
+    transform: rotate(-180deg);
+}
+
+
+/* Специалисты */
+
+.experts {
+    padding: 70px 0 58px;
+    text-align: center;
+}
+
+.experts h2 {
+    margin-bottom: 10px;
+}
+
+.experts button {
+    font-size: 13px;
+    line-height: 200%;
+    /* identical to box height, or 26px */
+    letter-spacing: 0.05em;
+    margin: 0 auto;
+}
+
+.experts_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 0 58px;
+}
+
+.experts_card {
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    min-height: 500px;
+    max-width: 275px;
+}
+
+.experts_card_info {
+    padding: 16px 20px;
+    text-align: start;
+}
+
+.experts_card_info img {
+    width: 100%;
+}
+
+.experts_card_info h5 {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+    color: #444444;
+    margin-bottom: 15px;
+}
+
+.experts_card_info ul {
+    padding-left: 20px;
+}
+
+.experts_card_info ul li {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+}
+
+
+/* Клиника */
+
+.clinic {
+    padding: 21px 0 0;
+}
+
+.clinicSwiper .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.clinicSwiper {
+    padding: 52px 0 118px;
+}
+
+.clinicSwiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 222px;
+    max-width: 358px;
+}
+
+.clinicSwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.clinicSwiper .swiper-pagination {
+    bottom: 70px;
+}
+
+.clinicSwiper .swiper-pagination .swiper-pagination-bullet {
+    margin: 0 13.5px;
+}
+
+.clinicSwiper .swiper-button-next,
+.clinicSwiper .swiper-button-prev {
+    top: 165px;
+    opacity: 1;
+}
+
+.clinicSwiper .swiper-button-next {
+    right: 0;
+}
+
+.clinicSwiper .swiper-button-prev {
+    left: 0;
+}
+
+
+/* Карта */
+
+.map {
+    position: relative;
+    height: 600px;
+}
+
+.map_absolute {
+    padding: 57px 80px 67px 60px;
+    position: absolute;
+    top: 50%;
+    left: 165px;
+    transform: translateY(-50%);
+    border-radius: 25px;
+    background-color: white;
+    z-index: +1;
+}
+
+.map h2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    /* or 100% */
+    display: flex;
+    align-items: center;
+    /* text_black */
+    color: #171717;
+    margin-bottom: 34px;
+    text-align: start;
+}
+
+.info__item {
+    display: flex;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    /* or 200% */
+    display: flex;
+    align-items: center;
+    color: #0A0A0A;
+}
+
+.info__item a {
+    color: #0C65B8;
+}
+
+.info__item:last-child {
+    margin-bottom: 28px;
+}
+
+.info__item img {
+    margin-right: 13px;
+}
+
+
+/* Футер */
+
+footer {
+    background: #EEEEEE;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.side_footer h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111111;
+    margin-bottom: 8px;
+    text-transform: none;
+}
+
+.side_footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #111111;
+    margin-bottom: 14px;
+}
+
+.side_footer a {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #111111;
+    margin-bottom: 10px;
+}
+
+.side_footer a img {
+    margin-right: 10px;
+}
+
+.center_footer img {
+    margin-top: -15px;
+}
+
+.center_footer p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #111111;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.center_footer p span {
+    font-size: 18px;
 }

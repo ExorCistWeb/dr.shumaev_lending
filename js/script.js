@@ -12,3 +12,10 @@ $.fn.setCursorPosition = function(pos) {
 $("#phone").click(function() {
     $(this).setCursorPosition(3);
 }).mask("+7(999) 999-99-99");
+
+$(document).ready(function() {
+    $('.accordion').click(function() {
+        $(this).toggleClass('active');
+        $(this).next().slideToggle();
+    });
+});
