@@ -20,10 +20,10 @@ $(document).ready(function() {
     });
 });
 
-$(function() {
-    var height = $('#service_cost_card_2').height();
-    $('#service_cost_card_1').height(height);
-});
+// $(function() {
+//     var height = $('#service_cost_card_2').height();
+//     $('#service_cost_card_1').height(height);
+// });
 
 (function() {
     let speed = 2; // Скорость скролла.

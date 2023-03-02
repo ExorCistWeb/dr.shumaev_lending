@@ -37,7 +37,11 @@ function initSwipers() {
             el: ".swiper-pagination",
             clickable: true,
         },
-
+        breakpoints: {
+            960: {
+                slidesPerView: 1,
+            },
+        }
     });
 
 }
@@ -50,6 +54,8 @@ var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 30,
     freeMode: true,
+    loop: true,
+
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -58,4 +64,12 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    breakpoints: {
+        680: {
+            slidesPerView: 2,
+        },
+        960: {
+            slidesPerView: 3,
+        },
+    }
 });

@@ -1,3 +1,9 @@
+@media (max-height:830px) {
+    #header {
+        min-height: 100vh;
+    }
+}
+
 @media (max-width: 1200px) {
     .container {
         padding: 0 40px;
@@ -153,5 +159,308 @@
     }
     .map {
         height: 540px;
+    }
+}
+
+@media (max-width: 960px) {
+    .container {
+        padding: 0 20px;
+    }
+    .logo {
+        width: 203.89px;
+        height: 29.39px;
+    }
+    .tel_btn {
+        margin-left: 15px;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 120%;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 120%;
+    }
+    h3 {
+        font-size: 14px;
+        line-height: 150%;
+    }
+    h4 {
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .orange_btn {
+        font-size: 14px;
+        line-height: 145%;
+        margin-bottom: 20px;
+    }
+    .header_btn button {
+        padding: 13px 18px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .header_btn {
+        margin-top: 20px;
+    }
+    .centr_checkbox {
+        margin-top: 84px;
+    }
+    .side_checkbox {
+        margin-top: 42px;
+    }
+    .side_footer h4 {
+        font-size: 15px;
+    }
+    .side_footer p {
+        font-size: 14px;
+    }
+    .side_footer {
+        max-width: 180px;
+    }
+    .center_footer {
+        text-align: center;
+    }
+    .center_footer img {
+        width: 200px;
+        margin-left: -15px;
+    }
+    .side_footer a img {
+        margin-right: 10px;
+        width: 20px;
+    }
+    .wiit_content {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .readings_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .readings_title {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .readings_title h2 {
+        text-align: center;
+    }
+    .aesthetic_flex {
+        background-image: none;
+        justify-content: space-around;
+        position: relative;
+        z-index: 99;
+    }
+    .aesthetic_left {
+        margin: 0;
+    }
+    .aesthetic_left {
+        position: relative;
+    }
+    .aesthetic_img_absalut {
+        display: block;
+        position: absolute;
+        z-index: -3;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: .3;
+    }
+    .aesthetic_box button {
+        font-size: 13px;
+    }
+    .why_content {
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 47px;
+    }
+    .why_box:nth-child(1) {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .why {
+        padding: 40px 0;
+    }
+    .point_cont {
+        flex-direction: column;
+        padding: 0 40px;
+        align-items: start;
+        margin-top: 0;
+    }
+    .point_cont .point :nth-child(1) {
+        margin-top: 20px;
+    }
+    .point_cont .point {
+        margin-bottom: 20px;
+    }
+    .install_img {
+        right: 0;
+        width: 500px;
+        opacity: .2;
+    }
+    .installment {
+        height: 370px;
+    }
+    .patients-slider .swiper-wrapper img {
+        width: 300px;
+        height: 300px;
+    }
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: 130px;
+        left: auto;
+    }
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 130px;
+    }
+    .none_span {
+        display: block !important;
+    }
+    .should_be button span {
+        display: none;
+    }
+    .should_be_slider {
+        margin: 20px 0 30px;
+    }
+    .should_be {
+        padding: 40px 0 65px;
+    }
+    .service_cost_flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service_cost_flex .service_cost_card:nth-child(1) {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .service_cost_flex {
+        margin-top: 20px;
+    }
+    .service_cost {
+        padding: 40px 0;
+    }
+    .service_cost_card h3 {
+        font-size: 16px;
+    }
+    .service_cost_card p {
+        margin-bottom: 20px;
+    }
+    .service_cost_card {
+        min-height: 850px;
+    }
+    .calculate {
+        background-image: none;
+    }
+    .form_container {
+        flex-direction: column;
+    }
+    .form_container input,
+    .form_container select,
+    .form_container button {
+        width: 100%;
+        margin: 0 !important;
+        max-width: unset !important;
+        margin-bottom: 10px !important;
+    }
+    .politic_p,
+    .politic_p a {
+        margin: 0;
+    }
+    .calculate_content {
+        padding: 50px 20px 40px;
+    }
+    .reviews_title {
+        padding: 0 20px !important;
+    }
+    .reviews_title_left {
+        margin: 0;
+        padding: 0;
+    }
+    .rate__body {
+        margin-top: 12px;
+    }
+    .rating-slider {
+        margin-top: 20px;
+    }
+    .reviews_title .reviews_title_left p {
+        display: block;
+        max-width: 397px;
+    }
+    .reviews_title .reviews_title_left p img {
+        margin-left: 16px;
+        margin-bottom: -4px;
+    }
+    .rate__header h4 {
+        margin-bottom: 4px;
+    }
+    .rate {
+        background: #EAFAFF;
+    }
+    .rate__body {
+        display: -webkit-box;
+        -webkit-line-clamp: 9;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .prodoctorov {
+        flex-direction: column;
+    }
+    .prodoctorov img:nth-child(2) {
+        margin-top: 20px;
+    }
+    .reviews {
+        padding: 40px 0 40px;
+    }
+    .video_container {
+        display: flex;
+        align-items: center;
+        overflow-y: hidden;
+    }
+    .video_flex iframe {
+        margin: 0 40px;
+        width: 400px;
+    }
+    .video_container::-webkit-scrollbar {
+        width: 0;
+    }
+    .video_reviews .container {
+        padding: 0;
+    }
+    .video_flex {
+        margin-top: 20px;
+    }
+    .video_reviews {
+        padding: 30px 0 46px;
+    }
+    .questions_content {
+        background-image: none;
+    }
+    .accordion_box {
+        max-width: unset;
+    }
+    .accordion_box img {
+        margin-left: 40px;
+    }
+    .questions {
+        padding-top: 40px;
+    }
+    .experts {
+        background: #F5F8FB;
+        padding: 30px 0 33px;
+    }
+    .experts_content {
+        padding: 30px 0;
+    }
+    .questions_content {
+        margin-top: 50px;
+    }
+    .questions p {
+        margin: 0 0 33px;
+    }
+    .clinicSwiper {
+        padding: 20px 0 80px;
     }
 }
