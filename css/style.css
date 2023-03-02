@@ -403,20 +403,94 @@ h4 {
     padding: 70px 0;
 }
 
+.aesthetic_flex {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../img/aesthetic.svg);
+    background-repeat: no-repeat;
+    background-size: 460px 419px;
+    background-position: center center;
+    min-height: 419px;
+}
+
 .aesthetic_box {
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(97, 106, 136, 0.12);
     border-radius: 20px;
     text-align: end;
     padding: 20px 30px;
+    position: relative;
+    max-width: 251px;
+    white-space: nowrap;
 }
 
-.aesthetic_box::before {
-    content: ' ';
+.aesthetic_left .aesthetic_box:nth-child(1) {
+    margin-bottom: 91px;
+}
+
+
+/* 
+.aesthetic_left .aesthetic_box:nth-child(1)::after {
+    content: url(../img/icon/aesth_1.svg);
     display: block;
+    position: absolute;
+    right: -182px;
+    top: 42px;
+}
+
+.aesthetic_left .aesthetic_box:nth-child(2)::after {
+    content: url(../img/icon/aesth_2.svg);
+    display: block;
+    position: absolute;
+    right: -243px;
+    top: -52px;
+} */
+
+.aesthetic_box::before {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: url(../img/icon/checkbox.png);
     width: 44px;
     height: 44px;
-    background: ;
+    top: -16px;
+    left: -19px;
+    background: linear-gradient(0deg, #2F80ED, #2F80ED), linear-gradient(109.68deg, #2F80ED 0.4%, #B2FFDA 97.34%), linear-gradient(301.43deg, #FF5C00 5.97%, #FF9C65 91.22%);
+    border: 4px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+.aesthetic_box_side {
+    margin-bottom: 94px;
+    text-align: start;
+}
+
+.aesthetic_box_side::before {
+    /* content: url(../img/icon/aesth_3.svg);
+    display: block;
+    position: absolute;
+    left: -169px;
+    top: 41px; */
+    content: ' ';
+    background: none;
+}
+
+.aesthetic_box_side::after {
+    position: absolute;
+    content: url(../img/icon/checkbox.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    top: -16px;
+    right: -19px;
+    background: linear-gradient(0deg, #2F80ED, #2F80ED), linear-gradient(109.68deg, #2F80ED 0.4%, #B2FFDA 97.34%), linear-gradient(301.43deg, #FF5C00 5.97%, #FF9C65 91.22%);
+    border: 4px solid #FFFFFF;
+    border-radius: 50px;
 }
 
 
@@ -1379,3 +1453,12 @@ footer {
 .center_footer p span {
     font-size: 18px;
 }
+
+
+/* section {
+    display: none;
+}
+
+.block {
+    display: block;
+} */
