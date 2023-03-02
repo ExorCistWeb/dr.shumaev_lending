@@ -3,13 +3,19 @@ function initSwipers() {
     new Swiper(".rating-slider", {
         loop: true,
         slidesPerGroup: 1,
-        slidesPerView: 'auto',
+        slidesPerView: 1.3,
+        // centeredSlides: true,
         spaceBetween: 50,
-
         navigation: {
             nextEl: ".rating-button-next",
             prevEl: ".rating-button-prev",
         },
+        brakepoint: {
+            1280: {
+                spaceBetween: 20,
+                centeredSlides: true,
+            },
+        }
     });
     new Swiper(".patients-slider", {
         autoplay: {

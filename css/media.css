@@ -2,4 +2,156 @@
     .container {
         padding: 0 40px;
     }
+    .header_section {
+        background-size: cover;
+    }
+    .header_content {
+        padding: 90px 0px 0px;
+    }
+    .checkbox p {
+        font-size: 13px;
+    }
+    .centr_checkbox {
+        margin-top: 76px;
+    }
+    .down_arrow {
+        margin-top: 75px;
+    }
+    .side_footer {
+        max-width: 250px;
+    }
+    .wiit_box {
+        margin-left: 10px;
+    }
+    .readings_box:nth-child(2) {
+        margin: 0 20px;
+    }
+    .readings_title {
+        margin-right: 10px;
+    }
+    .readings_title h2 {
+        margin-bottom: 10px;
+    }
+    .readings_img {
+        margin-bottom: 10px;
+    }
+    .readings_box {
+        max-width: 200px;
+        min-width: 165px;
+    }
+    .aesthetic_flex {
+        background-size: 400px 390px;
+    }
+    .why {
+        padding: 70px 0px;
+    }
+    .why_img {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .why_box {
+        background-image: none !important;
+    }
+    .why_box h4 {
+        margin-bottom: 10px;
+    }
+    .why_box:nth-child(2) p {
+        max-width: unset;
+    }
+    .why_box:nth-child(1) p {
+        max-width: unset;
+    }
+    .point_cont .point {
+        width: 345px;
+    }
+    .point_cont .point .point_num {
+        margin-right: 10px;
+    }
+    .aesthetic_veneers {
+        padding: 70px 40px 70px 40px;
+    }
+    .aesthetic_left {
+        margin-left: 30px;
+    }
+    .aesthetic_left .aesthetic_box {
+        width: 218px;
+    }
+    .installment_container {
+        padding: 90px 40px 0 40px;
+    }
+    .installment_title {
+        position: relative;
+        z-index: 999;
+    }
+    .install_img {
+        right: 0;
+        width: 500px;
+    }
+    .patients-slider .swiper-wrapper img {
+        width: 400px;
+        height: 400px;
+    }
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: 220px;
+        left: auto;
+    }
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 220px;
+    }
+    .calculate_content {
+        padding: 80px 40px 0 40px;
+    }
+    .calculate {
+        padding: 60px 30px;
+        background-size: cover;
+    }
+    .rating-slider {
+        display: flex;
+        justify-content: center;
+    }
+    .prodoctorov img:nth-child(2) {
+        width: 500px;
+    }
+    .video_flex iframe {
+        width: 100%;
+        max-width: 420px;
+        height: 235px;
+    }
+    .accordion_box {
+        max-width: 520px;
+    }
+    .questions_content {
+        background-size: 380px 380px;
+    }
+    .accordion_br {
+        display: none;
+    }
+    .questions_content {
+        padding: 60px 40px 12px;
+    }
+    .experts_content {
+        overflow-y: hidden;
+        cursor: pointer;
+    }
+    .experts {
+        padding: 70px 0 58px;
+    }
+    .experts_card:nth-child(4) {
+        margin-right: 40px;
+    }
+    .experts_card {
+        margin-left: 40px;
+    }
+    .experts_content::-webkit-scrollbar {
+        width: 0;
+    }
+    .map_absolute {
+        padding: 60px 40px 55px 40px;
+        left: 40px;
+    }
+    .map {
+        height: 540px;
+    }
 }
