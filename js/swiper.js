@@ -39,9 +39,14 @@ function initSwipers() {
         },
         breakpoints: {
 
-
+            680: {
+                slidesPerView: 2,
+            },
             480: {
                 slidesPerView: 1.5,
+            },
+            320: {
+                slidesPerView: 1,
             },
         }
     });
@@ -67,6 +72,9 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
     breakpoints: {
+        320: {
+            slidesPerView: 1,
+        },
         480: {
             slidesPerView: 1,
         },

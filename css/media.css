@@ -160,6 +160,17 @@
     .map {
         height: 540px;
     }
+    .photo {
+        width: 500px;
+        bottom: -178px;
+    }
+}
+
+@media (max-width: 1036px) {
+    .photo {
+        opacity: .2;
+        bottom: -178px;
+    }
 }
 
 @media (max-width: 960px) {
@@ -464,6 +475,10 @@
     .clinicSwiper {
         padding: 20px 0 80px;
     }
+    .photo {
+        opacity: .1;
+        bottom: -165px;
+    }
 }
 
 @media (max-width: 680px) {
@@ -622,6 +637,7 @@
     .calculate_p {
         font-size: 14px;
         margin: 8px 0 19px;
+        white-space: nowrap;
     }
     .reviews_title {
         flex-direction: column;
@@ -710,5 +726,98 @@
         text-align: center;
         max-width: unset !important;
         justify-content: center;
+    }
+    .photo {
+        opacity: .1;
+        bottom: -124px;
+    }
+    .service_cost_card {
+        padding: 20px 20px;
+    }
+    .service_cost_card button {
+        padding: 13px 22px;
+        font-size: 13px;
+        white-space: nowrap;
+    }
+    button {
+        padding: 13px 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .point {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .point_cont {
+        justify-content: center;
+        align-items: center;
+    }
+    .service_cost_card p {
+        font-size: 14px;
+    }
+    .calculate h2 {
+        font-size: 24px;
+    }
+    .calculate {
+        padding: 34px 20px;
+    }
+    .rate__body {
+        -webkit-line-clamp: 7;
+    }
+    .video_flex iframe {
+        margin: 0 11px;
+        width: 281px;
+        height: 153px;
+    }
+    .video_reviews p {
+        padding: 0 20px;
+    }
+    .experts h2,
+    .experts .p_padd {
+        padding: 0 20px;
+    }
+    .why_box {
+        height: auto;
+        padding-left: 22px;
+        padding-right: 5px;
+    }
+    .why_box h4 {
+        font-size: 16px;
+    }
+    .wiit_left img {
+        width: 100%;
+    }
+    .wiit_box {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .wiit_box .wiit_img {
+        margin-right: 0;
+    }
+    .photo {
+        position: relative;
+        width: 100%;
+        opacity: 1;
+        bottom: -50px;
+    }
+    .header_top {
+        background-image: none;
+        padding-bottom: 10px;
+    }
+    .header_bottom {
+        padding-top: 30px;
+    }
+    .header_btn {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header_btn button {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 10px;
     }
 }

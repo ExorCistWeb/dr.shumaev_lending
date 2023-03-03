@@ -106,6 +106,18 @@ h5 {
 
 .orange_span {
     color: #E65538;
+    position: relative;
+}
+
+.orange_span::before {
+    content: url(../img/orange.png);
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+}
+
+.orange_span span {
+    font-size: 30px;
 }
 
 p {
@@ -236,6 +248,8 @@ h4 {
     background-size: cover;
     background-position: center;
     height: 180px;
+    position: relative;
+    z-index: 999;
 }
 
 .header_bottom .container {
@@ -260,6 +274,16 @@ h4 {
     padding: 4px;
     margin-bottom: 14px;
     max-width: 54px;
+}
+
+.header_top {
+    position: relative;
+}
+
+.photo {
+    position: absolute;
+    right: 0;
+    bottom: -180px;
 }
 
 .header_bottom_flex {
@@ -1174,7 +1198,7 @@ select::-ms-expand {
 .questions_content {
     padding: 60px 0 12px;
     background-image: url(../img/quest.png);
-    background-position: right top;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: 429px 431px;
 }
