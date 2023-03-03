@@ -38,8 +38,10 @@ function initSwipers() {
             clickable: true,
         },
         breakpoints: {
-            960: {
-                slidesPerView: 1,
+
+
+            480: {
+                slidesPerView: 1.5,
             },
         }
     });
@@ -65,11 +67,16 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
     breakpoints: {
+        480: {
+            slidesPerView: 1,
+        },
         680: {
             slidesPerView: 2,
         },
         960: {
             slidesPerView: 3,
         },
+
+
     }
 });
