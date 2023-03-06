@@ -13,6 +13,22 @@
 </head>
 
 <body>
+
+    <div id="modal-window" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Получите лучшую цену</h2>
+            <p>Заполните простую форму, и наш специалист свяжется с Вами в ближайшее время.</p>
+            <form class="form_container" action="send.php" method="post" id="form">
+                <input type="text" name="name" placeholder="Имя" required>
+                <input type="text" name="phone" placeholder="Номер телефона" id="phone" required>
+
+                <button type="submit">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+
+
     <section id="header">
         <header>
             <div class="container header">
@@ -23,7 +39,7 @@
                         <a href="" class="tel"><img src="img/icon/tel.svg" alt="">+7 861 298 34 14</a>
                         <p class="tel_p">ПН-ВС с 9:00 до 21:00</p>
                     </div>
-                    <button class="tel_btn">Перезвоните мне</button>
+                    <button class="tel_btn" id="open-modal-btn" class="button">Перезвоните мне</button>
                 </div>
             </div>
         </header>
@@ -845,6 +861,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/swiper.js"></script>
+    <script src="js/modal.js"></script>
 </body>
 
 </html>
